@@ -1,3 +1,5 @@
+# MPU6050 SENSOR DRIVER
+
 # STEPS TO BUILD AND INSERT MPU6050 SENSOR DRIVER IN KERNEL AND TO RUN USERSPACE 
 
 Step-1 :  Change  path of the system to the directory where all the required driver files are stored using the following command   
