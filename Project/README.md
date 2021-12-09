@@ -1,6 +1,6 @@
-# PROCEDURE TO BUILD AND INSERT MPU6050 SENSOR DRIVER IN KERNEL AND TO USE USERSPACE \
+# PROCEDURE TO BUILD AND INSERT MPU6050 SENSOR DRIVER IN KERNEL AND TO USE USERSPACE 
 
-Step-1 :  Change  path of the system to the directory where all the required driver files are stored using the following command  \  
+Step-1 :  Change  path of the system to the directory where all the required driver files are stored using the following command   
 `cd  path_address`  \
 Step-2 : Now here Makefile consists of creating object files, kernel object file and  compiling userspace application. Following Command is used \
 `sudo make all` \
@@ -18,7 +18,7 @@ Step-6: As userspace application program is compiled in Makefile so we directly 
 Step-7 : To remove the driver from the kernel use the following command \
 `sudo rmmod main.ko` \
 Step-8 : To remove the object files use the following command \
-`sudo make clean` \
+`sudo make clean` 
 
  
  
