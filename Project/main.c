@@ -38,7 +38,7 @@ static struct i2c_driver MPU6050_driver = {
 
 static struct i2c_board_info MPU6050_i2c_board_info = {
  I2C_BOARD_INFO(SLAVE_DEVICE_NAME, MPU6050_SLAVE_ADDRESS)
-};
+};                                  //Platform device
 
 
 static dev_t dev_no;        //variable for device number
