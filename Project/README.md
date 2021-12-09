@@ -1,4 +1,5 @@
 # MPU6050 SENSOR DRIVER
+MPU6050 is a three-axis accelerometer and three-axis gyroscope and accelerometer Micro Electro-mechanical system (MEMS).It aids in the measurement of velocity, direction, acceleration, displacement, and other motion-related characteristics. \
 
 # Steps to build and insert MPU6050 Sensor driver in kernel and to run userspace 
 
